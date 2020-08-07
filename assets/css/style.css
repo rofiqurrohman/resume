@@ -1,0 +1,46 @@
+@font-face {
+    font-family: "consola";
+    src: url('../font/consola.ttf');
+ }
+
+ body{
+     font-family: sans-serif;
+     margin-bottom: 5%;
+ }
+
+ h2,h4{
+     color: rgb(24, 24, 138);
+ }
+
+ h5.title{
+     color: rgb(29, 29, 141);
+ }
+
+ small{
+     color: gray;
+     font-weight: 300;
+ }
+
+ul{
+    margin-left: 5%;
+}
+
+.tombol{
+    text-align: end;
+    margin-top: 3%;
+}
+
+.tombol a{
+    position: relative;
+    right: 10%;
+    text-decoration: none;
+    margin: 1%;
+}
+
+.tombol img{
+    height: 20px;
+}
+
+.progress-item{
+    margin-bottom: 2%;
+}
