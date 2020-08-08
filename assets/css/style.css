@@ -50,6 +50,11 @@
         padding: 2%;
     }
  }
+ @media only screen and (max-width: 240px) {
+    .header .foto{
+        margin-bottom: -100%;
+    }
+ }
 
  h1,h2,h4{
      color: rgb(24, 24, 138);
