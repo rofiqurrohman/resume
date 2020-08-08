@@ -1,15 +1,58 @@
 @font-face {
-    font-family: "consola";
-    src: url('../font/consola.ttf');
- }
+    font-family: raleway;
+    src: url(../font/Raleway-Regular.ttf);
+  }
+@font-face {
+    font-family: lato;
+    src: url(../font/Lato-Regular.ttf);
+  }
 
  body{
-     font-family: sans-serif;
+     font-family: lato;
      margin-bottom: 5%;
  }
 
- h2,h4{
+ .header .profile p{
+     margin: 0;
+ }
+
+ .header .foto{
+     margin-bottom: -20%;
+     text-align: center;
+ }
+
+ .header img{
+     height: 45%;
+     border: 5px solid #1dd2df;
+     padding: 3%;
+ }
+
+ @media only screen and (max-width: 600px) {
+    .header .foto{
+        text-align: center;
+        margin-bottom: -80%;
+    }
+    .header img{
+        height: 35%;
+        border: 3px solid #1dd2df;
+        padding: 2%;
+    }
+ }
+
+ @media only screen and (max-width: 768px) {
+    .header img{
+        height: 40%;
+        border: 3px solid #1dd2df;
+        padding: 2%;
+    }
+ }
+
+ h1,h2,h4{
      color: rgb(24, 24, 138);
+ }
+
+ h4{
+     font-family: raleway;
  }
 
  h5.title{
@@ -22,7 +65,12 @@
  }
 
 ul{
-    margin-left: 5%;
+    margin-left: -2%;
+}
+ 
+.listall p{
+    margin-top: -5px;
+    margin-bottom: 0;
 }
 
 .tombol{
@@ -39,6 +87,11 @@ ul{
 
 .tombol img{
     height: 20px;
+}
+
+nav a img{
+    height: 20px;
+    filter: invert(100%);
 }
 
 .progress-item{
